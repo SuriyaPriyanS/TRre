@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Survey Form</title>
+  <link rel="stylesheet" href="stl.css">
+
+</head>
+<body>
+  <div class="container">
+    <h1>Survey Form</h1>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="name">Last:</label>
+      <input type="text" id="name" name="name" required>
+
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="age">Age:</label>
+      <input type="number" id="age" name="age" required>
+
+       <div class="form-group">
+        <label for="performance-rating"></label>
+        <div class="rating">
+          <input type="radio" name="performance-rating" value="5" id="5"><span></span>
+          <input type="radio" name="performance-rating" value="4" id="4"><span></span>
+          <input type="radio" name="performance-rating" value="3" id="3"><span></span>
+          <input type="radio" name="performance-rating" value="2" id="2"><span></span>
+          <input type="radio" name="performance-rating" value="1" id="1"><span></span>
+        </div>
+        <div class="rating">
+            <input type="radio" name="performance-rating" value="5" id="5"><span></span>
+            <input type="radio" name="performance-rating" value="4" id="4"><span></span>
+            <input type="radio" name="performance-rating" value="3" id="3"><span></span>
+            <input type="radio" name="performance-rating" value="2" id="2"><span></span>
+            <input type="radio" name="performance-rating" value="1" id="1"><span></span>
+          </div>
+          <div class="rating">
+            <input type="radio" name="performance-rating" value="5" id="5"><span></span>
+            <input type="radio" name="performance-rating" value="4" id="4"><span></span>
+            <input type="radio" name="performance-rating" value="3" id="3"><span></span>
+            <input type="radio" name="performance-rating" value="2" id="2"><span></span>
+            <input type="radio" name="performance-rating" value="1" id="1"><span></span>
+          </div>
+
+      </div>
+
+      <div class="form-group">
+        <label for="feedback">Feedback:</label>
+        <textarea class="form-control" id="feedback" name="feedback" rows="4" required></textarea>
+      </div>
+
+
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+</body>
+</html>
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Star Reward Form</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .rating {
+      unicode-bidi: bidi-override;
+      direction: rtl;
+      text-align: center;
+    }
+    .rating span {
+      display: inline-block;
+      position: relative;
+      width: 1.1em;
+    }
+    .rating span:before {
+      content: "\2605";
+      position: absolute;
+      color: #ccc;
+    }
+    .rating span:hover:before,
+    .rating span:hover ~ span:before,
+    .rating input[type="radio"]:checked ~ span:before {
+      content: "\2605";
+      color: #ffcc00;
+    }
+  </style>
+</head>
+<body>
+  <div class="container mt-5">
+    <h1 class="text-center mb-4">Star Reward Form</h1>
+    <form>
+      <div class="form-group">
+        <label for="employee-name">Employee Name:</label>
+        <input type="text" class="form-control" id="employee-name" name="employee-name" required>
+      </div>
+
+      <div class="form-group">
+        <label for="department">Department:</label>
+        <select class="form-control" id="department" name="department" required>
+          <option value="">Select</option>
+          <option value="marketing">Marketing</option>
+          <option value="sales">Sales</option>
+          <option value="finance">Finance</option>
+          <option value="operations">Operations</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="performance-rating">Performance Rating:</label>
+        <div class="rating">
+          <input type="radio" name="performance-rating" value="5" id="5"><span></span>
+          <input type="radio" name="performance-rating" value="4" id="4"><span></span>
+          <input type="radio" name="performance-rating" value="3" id="3"><span></span>
+          <input type="radio" name="performance-rating" value="2" id="2"><span></span>
+          <input type="radio" name="performance-rating" value="1" id="1"><span></span>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="feedback">Feedback:</label>
+        <textarea class="form-control" id="feedback" name="feedback" rows="4" required></textarea>
+      </div>
+
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+
+
+
+      -->
